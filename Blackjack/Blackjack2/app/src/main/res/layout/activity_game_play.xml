@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".GamePlayActivity">
+
+    <TextView
+        android:id="@+id/textview_coins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bet: 50"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview_score_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="House: 10"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:weightSum="5">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageview_house_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/black_joker"></ImageView>
+
+            <ImageView
+                android:id="@+id/imageview_house_cover_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"></ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageview_house_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/black_joker"></ImageView>
+
+            <ImageView
+                android:id="@+id/imageview_house_cover_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"></ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageview_house_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/black_joker"></ImageView>
+
+            <ImageView
+                android:id="@+id/imageview_house_cover_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"></ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageview_house_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/black_joker"></ImageView>
+
+            <ImageView
+                android:id="@+id/imageview_house_cover_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"></ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageview_house_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/black_joker"></ImageView>
+
+            <ImageView
+                android:id="@+id/imageview_house_cover_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"></ImageView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_score_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player: 10"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:weightSum="5">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageview_player_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/black_joker"></ImageView>
+
+            <ImageView
+                android:id="@+id/imageview_player_cover_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"></ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageview_player_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/black_joker"></ImageView>
+
+            <ImageView
+                android:id="@+id/imageview_player_cover_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"></ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageview_player_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/black_joker"></ImageView>
+
+            <ImageView
+                android:id="@+id/imageview_player_cover_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"></ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageview_player_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/black_joker"></ImageView>
+
+            <ImageView
+                android:id="@+id/imageview_player_cover_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"></ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageview_player_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/black_joker"></ImageView>
+
+            <ImageView
+                android:id="@+id/imageview_player_cover_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"></ImageView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="HIT"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/button_hit">
+        </Button>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="STAY"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/button_stay">
+        </Button>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="RETRY"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/button_retry">
+        </Button>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="EXIT"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/button_exit">
+    </Button>
+
+</LinearLayout>
